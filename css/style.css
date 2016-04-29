@@ -379,7 +379,7 @@ p.tagline {
 	-moz-border-radius: 6px;
 	border-radius: 6px;
 	margin-top: -70px;
-	max-width: 950px;
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -786,7 +786,7 @@ nav.slide-effect a {
 /* --------- Skills Buttons Hover ----*/
 .btn-skills {
 	position: relative;
-	width: 150px;
+	width: 200px;
 	display: inline-block;
 	margin: 15px 25px;
 	outline: none;
@@ -865,10 +865,10 @@ nav.slide-effect a {
 }
 /*--------------PIE Chart ---------- */
 #pie-container {
-	padding-top: 100px;
+	padding-top: 270px;
 	max-width: 500px;
 	position: relative;
-	margin: 7em auto 0px auto;
+	margin: 4em 370px 0px auto;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 }
@@ -907,6 +907,9 @@ nav.slide-effect a {
 }
 .bar5 {
 	left: 400px;
+}
+.bar6 {
+	left: 500px;
 }
 /* ##### CONTACT ##### */
 .form-group {
