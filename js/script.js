@@ -6,7 +6,7 @@ $(window).load(function() {
 
 $(document).ready(function() {
 
-  //initializeMap(lat,lng);
+  initializeMap(lat,lng);
   
 	//Elements Appear from top
 	$('.item_top').each(function() {
@@ -391,7 +391,8 @@ function parallaxInit() {
      var mapOptions = {
        center: new google.maps.LatLng(lat, lng),
        zoom: 16,
-       mapTypeId: google.maps.MapTypeId.ROADMAP
+       mapTypeId: google.maps.MapTypeId.ROADMAP,
+	   scrollwheel: false
      };
      var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
      var marker = new google.maps.Marker({

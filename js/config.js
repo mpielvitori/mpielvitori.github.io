@@ -1,6 +1,6 @@
 /* Google MAP Settings*/
-  var lat= 23.73176;  //Change the value with your address Latitude
-  var lng= 90.40640;  //Change the value with your address Longitude
+  var lat= -34.604;  //Change the value with your address Latitude
+  var lng= -58.382;  //Change the value with your address Longitude
   
 //Skill Chart Data
 var skillData = {
@@ -75,7 +75,7 @@ var skillData = {
 			value: '50%'
 		},
     	{
-			title: "Test-driven development 40%",
+			title: "TDD 40%",
 			color: "#1b7ee4",
 			border: "4px solid #8cc2f9",
 			value: '40%'

@@ -52,7 +52,7 @@ function updateBars(data) {
 }
 
 function clearBars() {  
-  for ( var i = 0; i < 5; i = i + 1 ) {
+  for ( var i = 0; i < 6; i = i + 1 ) {
   var j=i+1;
   eval("document.getElementById('skill-bar"+j+"').style.height = '';");
   eval("document.getElementById('skill-bar"+j+"').style.backgroundColor = 'transparent';");

@@ -175,6 +175,9 @@ h5.info-date {
 .bar5 {
 	left: 260px;
 }
+.bar6 {
+	left: 325px;
+}
 }
 @media (max-width: 320px) {
 /*Best view for pieBar chart*/
@@ -198,6 +201,9 @@ h5.info-date {
 }
 .bar5 {
 	left: 200px;
+}
+.bar6 {
+	left: 250px;
 }
 }
 

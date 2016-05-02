@@ -572,6 +572,7 @@ h3.tagline-lg {
 	margin: 10px auto;
 	background-color: #333333;
 	color: #ffffff;
+	margin-top: 20px;
 }
 .timeline-content #timeline .post-info .box-inner i {
 	border: 2px solid #e1e1e1;
@@ -866,9 +867,9 @@ nav.slide-effect a {
 /*--------------PIE Chart ---------- */
 #pie-container {
 	padding-top: 270px;
-	max-width: 500px;
+	max-width: 600px;
 	position: relative;
-	margin: 4em 370px 0px auto;
+	margin: 4em auto 0px auto;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 }
