@@ -390,7 +390,7 @@ function parallaxInit() {
  function initializeMap(lat,lng) {
      var mapOptions = {
        center: new google.maps.LatLng(lat, lng),
-       zoom: 16,
+       zoom: 9,
        mapTypeId: google.maps.MapTypeId.ROADMAP,
 	   scrollwheel: false
      };
