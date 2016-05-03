@@ -398,7 +398,7 @@ $(function() {
  function initializeMap(lat,lng) {
      var mapOptions = {
        center: new google.maps.LatLng(lat, lng),
-       zoom: 9,
+       zoom: 11,
        zoomControl: true,
        scaleControl: false,
        scrollwheel: false,
