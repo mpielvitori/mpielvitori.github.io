@@ -30,7 +30,7 @@ var skillData = {
 			value: '70%'
 		},
 	    {
-			title: "Android / Ionic 40%",
+			title: "Android 40%",
 			color: "#f3377a",
 			border: "4px solid #f4709f",
 			value: '40%'

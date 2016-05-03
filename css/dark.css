@@ -1,0 +1,128 @@
+/*
+Theme Name: FlatX
+Description: Bootstrap One Page HTML5/CSS3 Parallax Resume Site Template
+Version: 1.4
+Author: TheThemeLab
+Author URI: http://themeforest.net/user/thethemelab
+*/
+
+	.color_about{
+		background-color: #1C202B;
+	}
+  .color_service{
+		background-color: #1C202B;
+	}
+  .color_portfolio{
+		background-color: #00BDBD;
+	}
+  .color_skill{
+		background-color: #1C202B;
+	}
+  .color_experience, .color_experience .bg2{
+		background-color: #00BDBD;
+	}
+  .color_education{
+		background-color: #1C202B;
+	}
+  .color_blog{
+		background-color: #00BDBD;
+	}
+  .color_contact{
+		background-color: #1C202B;
+	}       
+  /*Primary Color settings*/
+  #home .nameCard,
+  #home .idCard i,
+  .section-title .line-large,
+  .line-strong,
+  .name-title,
+   .services-icon,
+   .btn-skills span,
+   .timeline-content #timeline .post-info .info-date,
+   .edu-grade,
+   .contact-info i,
+   #secondary .widget .btn-search,
+   .primary-navigation ul ul a:hover, .primary-navigation ul ul li.focus > a,
+   article.post .more-link:hover,article.post .tags_section #post_tags li a:hover,
+   #commentform input#submit:hover,
+   .tagcloud a:hover,
+   #comments .comments_title:after,
+   #comments .comment-list li.comment .comment_reply_link a:hover,
+   #reply-title:after,
+   #nav_pages ul li a:hover,
+   .timeline-content #timeline .post-info .info-date,
+#nav_pages ul li.current a,
+#wp-calendar td#today,
+   .btn-dark:hover,
+   .ttl_toggles h5 a span,
+   .services:hover {
+    background-color:#3b404d !important;
+    }
+    
+   /*Color*/
+  .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus,
+  .navbar .nav > li > a:hover,
+  .section-title h1 i,
+  .social-link a i ,
+  .site-navigation a:hover, .site-navigation .current-menu-parent a, .site-navigation .current-menu-item a,
+  .primary-navigation li:hover > a, .primary-navigation li.focus > a ,
+   footer .social-icon a:hover,
+   .services:hover >.services-icon i{
+    color: #3b404d;
+  } 
+  h3.tagline-lg,p.tagline,.services:hover >.services-post{
+   color: #ffffff !important;
+  }
+  
+  .btn-default{box-shadow: 0 2px 0 0 #3b404d !important;}
+  .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+    background-color: #3b404d !important;
+    border-color: #3b404d !important;
+   }
+  .portfolio-filter-list a:hover,.portfolio-filter-list a.active {
+    background-color: #3b404d !important;
+    border: 1px solid #3b404d !important;
+  }
+  blockquote,article.post .tags_section #post_tags li a:hover,.tagcloud a:hover {
+	border-color: #3b404d !important;
+  }
+  .project-desc .list-details li{
+    border-bottom: 1px dashed #3b404d !important;
+  }
+  .portfolio-items article .overlay h3:after
+  {
+    border-bottom: 1px solid #3b404d !important;
+    }
+  .section-title h1, .section-title h2, .section-title h3{
+   color: #FF2B42 !important;
+  }  
+  body,.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,.form-respond .content-message i, #blog h3.post-title a,.timeline-item .info-date ,.form-group label {
+   color: #f5f5f5 !important;
+  }
+   .btn-default:hover, .btn-dark:hover.comment_reply_link a:hover,.primary-navigation ul ul a:hover,
+  article.post .more-link:hover,article.post .tags_section #post_tags li a:hover,  
+   #commentform input#submit:hover,.tagcloud a:hover,.portfolio-filter-list a:hover{
+   color:#fff !important
+   }  
+   .ttl_accordion_style_1 .item h5 > a.current {
+    box-shadow: 0 3px 0 #3b404d inset !important;
+  }
+  div.ttl_tabs_style_1 ul.tab_names li.tab_name a:hover,div.ttl_tabs_style_2 ul.tab_names li.tab_name a:hover,
+  div.ttl_tabs_style_1 ul.tab_names li.tab_name a.current,div.ttl_tabs_style_2 ul.tab_names li.tab_name a.current {
+	background-color: #ffffff;
+	text-decoration: none;
+  box-shadow: 0 3px 0 #3b404d inset !important;
+}
+.services-post,#education .edu-post,#secondary{
+color: #222222;
+}
+.form-respond .content-message {
+background: transparent !important;
+}
+
+
+@media (max-width: 767px) {
+.navbar .nav > .active > a{
+color:#ffffff !important;
+}
+}

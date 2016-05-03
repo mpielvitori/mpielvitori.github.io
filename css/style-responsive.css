@@ -1,7 +1,7 @@
 /*
 Theme Name: FlatX
 Description: Bootstrap One Page HTML5/CSS3 Parallax Resume Site Template
-Version: 1.0
+Version: 1.4
 Author: TheThemeLab
 Author URI: http://themeforest.net/user/thethemelab
 */
@@ -14,6 +14,9 @@ Author URI: http://themeforest.net/user/thethemelab
 	margin: 0 0 20px 0;
 	padding: 0 0 20px 0;
 	border-color: #666;
+}
+#home .vcard {
+	max-width: 500px;
 }
 #home .idCard, #home .nameCard {
 	width: 100%;
@@ -59,6 +62,12 @@ h5.info-date {
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
 	color: #fff;
+}
+.navbar .nav > .active > a{
+color:#ffffff !important;
+}
+.single-portfolio img{
+width:100%
 }
 .section-content {
 	padding: 60px 0;
@@ -139,7 +148,9 @@ h5.info-date {
 #home .vcard {
 	margin-top: 50px;
 	width: 100%;
+ 	max-width: 450px;
 }
+.slide-content{margin:0px auto;}
 .header1 {
 	margin-top: 0px;
 }
@@ -252,7 +263,7 @@ h5.info-date {
 @media (min-width: 992px) {
 #home .vcard {
 	width: 65%;
-	max-width: 650px;
+	max-width: 600px;
 	min-width: 550px;
 }
 .project-description {
