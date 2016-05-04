@@ -275,26 +275,42 @@ $(document).ready(function() {
 	$(document).on('submit', '#contactform', function(e) {
 		e.preventDefault(); // prevent default form submit
 		// sending ajax request through jQuery
+		$.support.cors = true;
 		$.ajax({
 			url: 'https://docs.google.com/forms/d/1mrwqJNt4cucQeBN9QHfUnbIM4RbR6cMJ7w5bUkksVac/formResponse',
 			type: 'POST',
 			dataType: 'html',
+			async: false,
+			headers: {'Access-Control-Allow-Origin': '*'},
+			crossDomain: true,
+			crossOrigin: true,
 			data: form.serialize(),
-			beforeSend: function() {
+			beforeSend: function(xhr) {
+				//xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
 				alertx.fadeOut();
 				submit.html('Sending....'); // change submit button text
+				//console.log('BEFORE');
 			},
 			success: function(data) {
+				//console.log('SUCCESS');
 				form.fadeOut(300);
 				alertx.html(data).fadeIn(1000); // fade in response data
 				setTimeout(function() {
 					alertx.html(data).fadeOut(300);
-					$('#name, #email, #message').val('')
+					$('#name, #email, #message').val('');
 					form.fadeIn(1800);
 				}, 4000 );
 
 			},
 			error: function(e) {
+				//console.log('ERROR '+e);
+				form.fadeOut(300);
+				alertx.html(e).fadeIn(1000); // fade in response data
+				setTimeout(function() {
+					alertx.html(e).fadeOut(300);
+					$('#name, #email, #message').val('');
+					form.fadeIn(1800);
+				}, 4000 );
 				console.log(e)
 			}
 		});
