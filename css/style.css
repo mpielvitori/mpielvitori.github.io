@@ -1054,6 +1054,7 @@ nav.slide-effect a {
 	text-transform: none;
 	color: red;
 	font-weight: 400;
+	padding-right: 20px;
 }
 .form-group .form-control {
 	-webkit-border-radius: 0;

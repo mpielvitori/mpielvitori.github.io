@@ -314,10 +314,11 @@ $(document).ready(function() {
 			$("#back-top").fadeOut(200);
 		}
 	});
-	$('#back-top').click(function() {
-		$('html, body').stop().animate({
-			scrollTop : 0
-		}, 1500, 'easeInOutExpo');
+	$("#back-top").click(function(e){
+		$("html, body").stop().animate({
+			scrollTop:0
+		},1500,"easeInOutExpo");
+		e.preventDefault()
 	});
 
 });
