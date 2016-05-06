@@ -1541,3 +1541,8 @@ margin-bottom:20px;
          -o-transition-property: top, left, opacity;
             transition-property: transform, opacity;
 }
+
+a.simpleLink:hover {
+	text-decoration: underline !important;
+	color: #15c;
+}
