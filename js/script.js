@@ -322,7 +322,7 @@ $(document).ready(function() {
 	});
 
 	$('#downloadResume').click(function () {
-		var url = './files/Martin_Pielvitori_Resume.pdf';
+		var url = './files/Martin-Pielvitori-Resume.pdf';
 		var link = document.createElement('a');
 		if (typeof link.download === 'string') {
 			console.log('1');
@@ -399,7 +399,7 @@ $(function() {
 		$(".number-counters [data-to]").each(function(){
 			var count = $(this).attr('data-to');
 			$(this).delay(6000).countTo({
-				from: 50,
+				from: 30,
 				to: count,
 				speed: 3000,
 				refreshInterval: 50,
