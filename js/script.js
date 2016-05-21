@@ -321,6 +321,23 @@ $(document).ready(function() {
 		e.preventDefault()
 	});
 
+	$('#downloadResume').click(function () {
+		var url = './files/Martin_Pielvitori_Resume.pdf';
+		var link = document.createElement('a');
+		if (typeof link.download === 'string') {
+			console.log('1');
+			link.href = url;
+			link.setAttribute('download', 'Martin_Pielvitori_Resume');
+			//Firefox requires the link to be in the body
+			document.body.appendChild(link);
+			//simulate click
+			link.click();
+			//remove the link when done
+			document.body.removeChild(link);
+		} else {
+			window.open(url);
+		}
+	});
 });
 
 //Navigation Scrolling
@@ -364,6 +381,7 @@ function parallaxInit() {
 	$('#one-parallax').parallax("50%", 0.2);
 	$('#two-parallax').parallax("50%", 0.2);
 	$('#three-parallax').parallax("50%", 0.2);
+	//$('#experience').parallax("50%", 0.2);
 	/*add as necessary*/
 }
 var onMobile = false;
