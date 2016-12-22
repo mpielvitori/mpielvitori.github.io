@@ -45,7 +45,7 @@ var skillData = {
 	],
 	skill2: [
 		{
-			title: "Agile/Scrum 60%",
+			title: "Agile/Scrum 80%",
 			color: "#1b7ee4",
 			border: "4px solid #8cc2f9",
 			value: '60%'
@@ -69,7 +69,7 @@ var skillData = {
 			value: '90%'
 		},
     	{
-			title: "Kanban 50%",
+			title: "Kanban 90%",
 			color: "#1b7ee4",
 			border: "4px solid #8cc2f9",
 			value: '50%'
