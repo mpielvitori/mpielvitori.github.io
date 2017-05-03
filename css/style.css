@@ -868,7 +868,7 @@ section.skill-section {
 	display: block;
 	opacity: 0;
 	float: none;
-	height: 300px;
+	height: 440px;
 	transition: opacity 0.2s ease-out;
 }
 .l-bar-wrapper {

@@ -6,7 +6,7 @@
 var skillData = {
 	skill1: [
 		{
-			title: "JAVA - Struts2 - Spring - Hibernate 100%",
+			title: "JAVA EE 8 / EJB3 / JAX-WS / RESTful / Struts2 / Spring 100%",
 			color: "#f3377a",
 			border: "4px solid #f4709f",
 			value: '100%'
@@ -18,7 +18,7 @@ var skillData = {
 			value: '75%'
 		},		
 		{
-			title: "JS / JQuery / Angular / Node 80%",
+			title: "Javascript / AngularJS / Node 80%",
 			color: "#f3377a",
 			border: "4px solid #f4709f",
 			value: '80%'
@@ -30,13 +30,13 @@ var skillData = {
 			value: '70%'
 		},
 	    {
-			title: "Android 40%",
+			title: "Android 70%",
 			color: "#f3377a",
 			border: "4px solid #f4709f",
 			value: '40%'
 		},
 		{
-			title: "OOP / EDA / JMS / SOA 75%",
+			title: "OOP / EDA / JMS / SOA 80%",
 			color: "#f3377a",
 			border: "4px solid #f4709f",
 			value: '75%'
@@ -45,7 +45,7 @@ var skillData = {
 	],
 	skill2: [
 		{
-			title: "Agile/Scrum 80%",
+			title: "Agile/Scrum 100%",
 			color: "#1b7ee4",
 			border: "4px solid #8cc2f9",
 			value: '60%'
@@ -107,7 +107,7 @@ var skillData = {
 			value: '60%'
 		},
 		{
-			title: "JMeter 30%",
+			title: "JMeter 50%",
 			color: "#87b615",
 			border: "4px solid #e4f9b1",
 			value: '30%'
