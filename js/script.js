@@ -8,6 +8,12 @@ $(document).ready(function() {
 
 	initialize();
 
+	//Years of experience depends on now
+	var yearsOfExp = document.getElementById('yearsOfExp');
+	var yearNow =  new Date().getFullYear();
+	var beginYear = 2005;
+	yearsOfExp.setAttribute('data-to', yearNow - beginYear);
+
 	//Elements Appear from top
 	$('.item_top').each(function() {
 		$(this).appear(function() {
@@ -325,7 +331,6 @@ $(document).ready(function() {
 		var url = './files/Martin-Pielvitori-Resume.pdf';
 		var link = document.createElement('a');
 		if (typeof link.download === 'string') {
-			console.log('1');
 			link.href = url;
 			link.setAttribute('download', 'Martin_Pielvitori_Resume');
 			//Firefox requires the link to be in the body
