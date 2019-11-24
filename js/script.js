@@ -475,6 +475,6 @@ function initialize() {
 	map.setMapTypeId('roadatlas');
 }
 
-if($('#map_canvas').length)
-	google.maps.event.addDomListener(window, "load", initialize);
+// if($('#map_canvas').length)
+// 	google.maps.event.addDomListener(window, "load", initialize);
 // ========== END GOOGLE MAP ========== //
