@@ -6,7 +6,8 @@ $(window).load(function() {
 
 $(document).ready(function() {
 
-	initialize();
+  // TODO avoid gmap initialization
+	// initialize();
 
 	//Years of experience depends on now
 	var yearsOfExp = document.getElementById('yearsOfExp');
