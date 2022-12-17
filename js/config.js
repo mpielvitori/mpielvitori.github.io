@@ -30,7 +30,7 @@ const skillData = {
       value: '60%',
     },
     {
-      title: 'Android 60%',
+      title: 'Golang 60%',
       color: '#7ba036',
       border: '4px solid #a7ce5f',
       value: '60%',
@@ -39,34 +39,34 @@ const skillData = {
   ],
   skill2: [
     {
-      title: 'Agile/Scrum 90%',
+      title: 'Agile 90%',
       color: '#1b7ee4',
       border: '4px solid #8cc2f9',
       value: '90%',
     },
     {
-      title: 'DevOps 80%',
+      title: 'GitOps 80%',
       color: '#1b7ee4',
       border: '4px solid #8cc2f9',
       value: '80%',
     },
     {
-      title: 'TDD 70%',
+      title: 'API first 80%',
       color: '#1b7ee4',
       border: '4px solid #8cc2f9',
-      value: '70%',
+      value: '80%',
     },
     {
-      title: 'Lean 70%',
+      title: '12 FactorApp 80%',
       color: '#1b7ee4',
       border: '4px solid #8cc2f9',
-      value: '70%',
+      value: '80%',
     },
   	{
-      title: 'Kanban 80%',
+      title: 'IaC 70%',
       color: '#1b7ee4',
       border: '4px solid #8cc2f9',
-      value: '80%',
+      value: '70%',
     },
   ],
   skill3: [
@@ -89,16 +89,16 @@ const skillData = {
       value: '60%',
     },
     {
-      title: 'Istio 60%',
+      title: 'Cloud 70%',
+      color: '#804caa',
+      border: '4px solid #b37be0',
+      value: '70%',
+    },
+    {
+      title: 'Keycloak 60%',
       color: '#804caa',
       border: '4px solid #b37be0',
       value: '60%',
-    },
-    {
-      title: 'Terraform 40%',
-      color: '#804caa',
-      border: '4px solid #b37be0',
-      value: '40%',
     },
   ],
 };
