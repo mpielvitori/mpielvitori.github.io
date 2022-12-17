@@ -91,7 +91,7 @@ $(document).ready(function() {
 			var winWidth = jQuery(window).width() + 15, columnNumb = 1;
 			if (winWidth > 1024) {
 				columnNumb = 4;
-			} else if (winWidth > 768) {
+			} else if (winWidth > 780) {
 				columnNumb = 3;
 			} else if (winWidth > 480) {
 				columnNumb = 2;

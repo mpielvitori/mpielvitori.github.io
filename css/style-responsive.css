@@ -248,7 +248,7 @@ width:100%
 }
 }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 780px) {
 #portfolio-wrap .portfolio-item {
 	width: 50%;
 }
