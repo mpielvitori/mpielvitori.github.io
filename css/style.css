@@ -426,7 +426,7 @@ p.tagline {
 }
 .header2 .head-text {
     display: block;
-    font-size: 18px;
+    font-size: 28px;
     margin-bottom: 50px;
     width: 100%;
 }
@@ -704,7 +704,7 @@ h3.tagline-lg {
 	padding: 15px;
 	margin: 0px;
 }
-.edu-post:after {
+/* .edu-post:after {
 	content: " ";
 	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #F2F4F6;
 	border-style: solid;
@@ -716,7 +716,7 @@ h3.tagline-lg {
 	height: 0px;
 	position: absolute;
 	z-index: 10;
-}
+} */
 .edu-grade {
 	width: 30%;
 	height: 100%;
