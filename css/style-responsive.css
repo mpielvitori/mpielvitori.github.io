@@ -279,3 +279,9 @@ width:100%
 	width: 25%;
 }
 }
+
+@media (max-width:991px){
+  img#logo-image {
+    display: none;
+  }
+}
