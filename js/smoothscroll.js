@@ -2,7 +2,7 @@
 // Licensed under the terms of the MIT license.
 
 // People involved
-//  - Balazs Galambosi (maintainer)  
+//  - Balazs Galambosi (maintainer)
 //  - Patrick Brunner  (original idea)
 //  - Michael Herf     (Pulse Algorithm)
 //  - Justin Force     (Resurect)
@@ -267,7 +267,7 @@ function wheel(event) {
   }
 
   scrollArray(overflowing, -deltaX, -deltaY);
-  event.preventDefault();
+  // event.preventDefault();
 }
 
 /**
